@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LAGA Bau Logo">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a3f24"/><stop offset="1" stop-color="#66b432"/></linearGradient></defs>
+<circle cx="256" cy="256" r="244" fill="#f5f5ec" stroke="#0b572e" stroke-width="12"/>
+<path d="M91 143h98l67 109 68-109h96L270 364h-30z" fill="#0a3f24"/>
+<path d="M196 359c58-92 112-157 207-219-57 85-104 170-207 219z" fill="url(#g)"/>
+<path d="M305 235c49-63 86-87 127-97-14 56-46 92-103 111z" fill="#70bb2f"/>
+<path d="M331 268c74-22 118 6 118 54 0 70-75 102-157 62l27-50c42 25 74 16 74-8 0-17-22-23-62-18z" fill="#58a92f"/>
+<path d="M133 365c18-38 46-58 84-59-17 35-42 56-84 59z" fill="#65b531"/>
+<text x="256" y="452" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" fill="#083d23">LAGA BAU</text>
+</svg>
