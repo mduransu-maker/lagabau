@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '491234567890'; // TODO: durch die echte Nummer mit Ländervorwahl ersetzen, ohne + oder Leerzeichen.
+const WHATSAPP_NUMBER = '491234567890'; // TODO: durch die echte Nummer mit Ländervorwahl ersetzen, ohne + oder Leerzeichen.\nconst toast=document.querySelector('.toast');
 const DEFAULT_MESSAGE = 'Hallo LAGA Bau, ich hätte eine Anfrage.';
 const makeWhatsAppUrl = (message = DEFAULT_MESSAGE) => {
   const numberIsPlaceholder = WHATSAPP_NUMBER === '491234567890';
@@ -22,7 +22,7 @@ menu?.addEventListener('click',()=>{const open=document.body.classList.toggle('m
 document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{document.body.classList.remove('menu-open');menu?.setAttribute('aria-expanded','false');}));
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-const form=document.querySelector('#contact-form'),toast=document.querySelector('.toast');
+const form=document.querySelector('#contact-form');
 form?.addEventListener('submit',e=>{
   e.preventDefault();
   const data=new FormData(form);
